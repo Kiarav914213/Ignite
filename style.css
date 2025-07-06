@@ -1,0 +1,4545 @@
+/*header buy now bar start*/
+
+.sticky {
+    position: fixed;
+    background-color: #000;
+    width: 100%;
+    max-width: 100%;
+    top: 40px;
+    z-index: 999;
+}
+
+.header-coupon {
+    color: #000;
+}
+
+.buy-now a {
+    background: #ff9f33;
+    padding: 10px 20px;
+}
+
+.header-coupon:hover {
+    animation: none;
+    /* Stop the blinking on hover */
+}
+
+.admin-bar .sticky {
+    position: fixed;
+    background-color: #000;
+    width: 100%;
+    max-width: 100%;
+    top: 72px;
+    z-index: 999;
+}
+
+.mtsnb {
+    z-index: 100000 !important;
+}
+
+.mtsnb-button-type a {
+    background: #000;
+    color: #fff !important;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.header-coupoun {
+    color: green;
+}
+
+.mtsnb-text {
+    font-weight: bold;
+}
+
+/*header buy now bar end*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+nav,
+section,
+summary {
+    display: block;
+}
+
+.wpcf7 form.aborted .wpcf7-response-output {
+    border-color: white !important;
+    /* Red */
+}
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+
+[hidden] {
+    display: none;
+}
+
+html {
+    font-size: 100%;
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+body {
+    margin: 0;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Roboto";
+    position: static;
+}
+
+a {
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.25ch;
+}
+
+a:hover,
+a:focus {
+    text-decoration-style: dashed;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+figure a {
+    display: inline-block;
+}
+
+.wp-block-navigation .wp-block-navigation-item a:hover,
+.wp-block-navigation .wp-block-navigation-item a:focus {
+    text-decoration-style: solid;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    clear: both;
+    font-family: "Bricolage Grotesque";
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 33px 0;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 25px 0;
+}
+
+h3 {
+    font-size: 22px;
+    margin: 22px 0;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 25px 0;
+}
+
+h5 {
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+h6 {
+    font-size: 16px;
+    margin: 36px 0;
+}
+
+p {
+    margin: 0 0 25px;
+}
+
+img {
+    border: none;
+    max-width: 100%;
+    -ms-interpolation-mode: bicubic;
+    border: 0;
+    vertical-align: middle;
+}
+
+address {
+    font-style: italic;
+    margin: 0 0 24px;
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+dfn {
+    font-style: italic;
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, serif;
+    font-size: 14px;
+    hyphens: none;
+}
+
+pre {
+    background: #f5f5f5;
+    color: #666;
+    font-family: monospace;
+    font-size: 14px;
+    margin: 20px 0;
+    overflow: auto;
+    padding: 20px;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+blockquote,
+q {
+    hyphens: none;
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+blockquote {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 24px 40px;
+}
+
+blockquote blockquote {
+    margin-right: 0;
+}
+
+blockquote cite,
+blockquote small {
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+blockquote em,
+blockquote i {
+    font-style: normal;
+    font-weight: 300;
+}
+
+blockquote strong,
+blockquote b {
+    font-weight: 400;
+}
+
+small {
+    font-size: smaller;
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+dl {
+    margin: 0 20px;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin: 0 0 20px;
+}
+
+menu,
+ol,
+ul {
+    margin: 16px 0;
+    padding: 0 0 0 15px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+nav ul,
+nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+
+li>ul,
+li>ol {
+    margin: 0;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+figure {
+    margin: 0;
+}
+
+form {
+    margin: 0;
+}
+
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    min-width: inherit;
+    padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+    border: 0;
+    padding: 0;
+    white-space: normal;
+}
+
+button,
+input,
+select,
+textarea {
+    font-size: 100%;
+    margin: 0;
+    max-width: 100%;
+    vertical-align: baseline;
+}
+
+button,
+input {
+    line-height: normal;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    padding: 0;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    padding-right: 2px;
+    width: 270px;
+}
+
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: none;
+    min-height: 120px;
+}
+
+table {
+    border-bottom: 1px solid #ededed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    line-height: 2;
+    margin: 0 0 20px;
+    width: 100%;
+}
+
+caption,
+th,
+td {
+    font-weight: normal;
+    text-align: left;
+}
+
+caption {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+th {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+td {
+    border-top: 1px solid #ededed;
+    padding: 6px 10px 6px 0;
+}
+
+del {
+    color: #333;
+}
+
+ins {
+    background: #fff9c0;
+    text-decoration: none;
+}
+
+/* Form fields styles. */
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="number"],
+input[type="search"],
+input[type="url"],
+input[type="password"],
+textarea {
+    border: 1px solid #8c93a633;
+    width: 65%;
+    color: white;
+    padding: 20px;
+    outline: none;
+    background-color: black !important;
+    border-radius: 8px;
+    /* border-bottom: 1px solid #121212 !important; */
+}
+
+select {
+    background: transparent;
+    border: 1px solid #00b5e2;
+    width: 100%;
+    border-radius: 8px;
+    padding: 13px;
+    outline: none;
+}
+
+/* Buttons */
+
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+    background-color: #ff9f33;
+    border-radius: 5px !important;
+    color: white;
+    display: inline-block;
+    font-size: 14px 35px !important;
+    font-weight: 700 !important;
+    line-height: 24px !important;
+    padding: 12px !important;
+    text-decoration: none;
+    transition: all 0.2s;
+    border: none;
+    font-family: "Nunito" !important;
+    width: 160px !important;
+    height: 61px !important;
+    margin-top: 3px !important;
+}
+
+/* Placeholder text color -- selectors need to be separate to work. */
+
+::placeholder {
+    color: white;
+    opacity: 1;
+    font-weight: 400;
+    text-align: left;
+    background-color: black;
+}
+
+:-ms-input-placeholder {
+    color: #041f69;
+}
+
+::-ms-input-placeholder {
+    color: #041f69;
+}
+
+/*
+ * Search and File Block button styles.
+ * Necessary until the following issues are resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/36444
+ * https://github.com/WordPress/gutenberg/issues/27760
+ */
+
+a:where(:not(.wp-element-button)):hover {
+    color: red;
+}
+
+/*
+ * Button hover styles.
+ * Necessary until the following issue is resolved in Gutenberg:
+ * https://github.com/WordPress/gutenberg/issues/27075
+ */
+
+.wp-block-search__button:hover,
+.wp-block-file .wp-block-file__button:hover,
+.wp-block-button__link:hover {
+    opacity: 0.9;
+}
+
+/* Blocks inside columns don't have negative margins. */
+
+.wp-site-blocks .wp-block-columns .wp-block-column .alignfull,
+.is-root-container .wp-block-columns .wp-block-column .wp-block[data-align="full"],
+/* We also want to avoid stacking negative margins. */
+
+.wp-site-blocks .alignfull:not(.wp-block-group) .alignfull,
+.is-root-container .wp-block[data-align="full"]>*:not(.wp-block-group) .wp-block[data-align="full"] {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: inherit;
+}
+
+/*
+ * Responsive menu container padding.
+ * This ensures the responsive container inherits the same
+ * spacing defined above. This behavior may be built into
+ * the Block Editor in the future.
+ */
+
+.wp-block-navigation__responsive-container.is-menu-open {
+    padding-top: var(--wp--custom--spacing--outer);
+    padding-bottom: var(--wp--custom--spacing--large);
+    padding-right: var(--wp--custom--spacing--outer);
+    padding-left: var(--wp--custom--spacing--outer);
+}
+
+.freelance-portfolio-pro-header .wp-block-cover,
+.freelance-portfolio-pro-header .wp-block-cover-image,
+.freelance-portfolio-pro- .wp-block-cover,
+.freelance-portfolio-pro- .wp-block-cover-image,
+.freelance-portfolio-pro-porduct-section,
+.freelance-portfolio-pro-menu-section {
+    align-items: inherit;
+}
+
+.freelance-portfolio-pro-footer-menu .wp-block-navigation li {
+    padding-left: 20px;
+    position: relative;
+}
+
+.freelance-portfolio-pro-footer-menu .wp-block-navigation li:before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    left: 0px;
+    top: 50%;
+    position: absolute;
+    border-radius: 100%;
+    transform: translateY(-50%);
+}
+
+.freelance-portfolio-pro-header .wp-block-navigation__submenu-container {
+    min-width: 215px !important;
+    background: #5f1c00 !important;
+}
+
+.freelance-portfolio-pro-menu .wp-block-navigation li {
+    padding: 17px 0px;
+}
+
+.freelance-portfolio-pro-menu .wp-block-navigation__submenu-container li {
+    padding: inherit;
+}
+
+.freelance-portfolio-pro-menu .wp-block-group {
+    padding: 0;
+}
+
+.wc-block-mini-cart__button:hover {
+    background: transparent;
+}
+
+.freelance-portfolio-pro-menu {
+    font-family: Oswald;
+}
+
+.freelance-portfolio-pro-header .wp-block-navigation li.current-menu-item .wp-block-navigation-item__label,
+.freelance-portfolio-pro-header .wp-block-navigation li .wp-block-navigation-item__label:hover {
+    color: #5baaec;
+}
+
+.freelance-portfolio-pro-footer-menu .wp-block-navigation li.current-menu-item .wp-block-navigation-item__label,
+.freelance-portfolio-pro-footer-menu .wp-block-navigation li .wp-block-navigation-item__label:hover {
+    color: #ff8502;
+}
+
+.freelance-portfolio-pro-footer-menu .wp-block-navigation li:hover:before,
+.freelance-portfolio-pro-footer-menu .wp-block-navigation li.current-menu-item:before {
+    background: #ff8502;
+}
+
+.freelance-portfolio-pro-ice-berg .wp-block-image {
+    background: #5f1c00;
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+    align-items: center !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.freelance-portfolio-pro-ice-berg h3 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.freelance-portfolio-pro-ice-berg:hover .wp-block-image {
+    background: #19375b;
+}
+
+.freelance-portfolio-pro-ice-berg:hover h3 {
+    color: #19375b !important;
+}
+
+.freelance-portfolio-pro-better-box .wp-block-image {
+    background: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    align-items: center !important;
+    display: flex !important;
+    justify-content: center !important;
+    float: left;
+}
+
+.freelance-portfolio-pro-product-box .wc-block-components-product-image img {
+    width: auto !important;
+    margin: 0 auto;
+    display: table;
+}
+
+.freelance-portfolio-pro-menu-section::before {
+    content: "";
+    width: 35%;
+    height: 100%;
+    background: #19375b;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    z-index: 1;
+}
+
+.freelance-portfolio-pro-section .wp-block-columns {
+    position: relative;
+    overflow: hidden;
+}
+
+.freelance-portfolio-pro-discount-box {
+    width: 230px !important;
+    height: 230px;
+    position: absolute;
+    right: -60px;
+    bottom: -50px;
+}
+
+.freelance-portfolio-pro-section-box .wp-block-column {
+    z-index: 9;
+}
+
+.freelance-portfolio-pro-section .freelance-portfolio-pro-section-box::before {
+    content: "";
+    width: 99.5%;
+    height: 99%;
+    border: solid 2px #bd9655;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-style: dashed;
+}
+
+.freelance-portfolio-pro-inner-banner {
+    position: relative;
+    z-index: -1;
+    background-color: #262626;
+}
+
+.freelance-portfolio-pro-section11-left {
+    margin-right: 100px !important;
+}
+
+.freelance-portfolio-pro-section11 {
+    position: relative;
+}
+
+.freelance-portfolio-pro-section11::before {
+    content: "";
+    width: 41.5%;
+    position: absolute;
+    height: 100%;
+    background: #19375b;
+    z-index: 0;
+}
+
+.freelance-portfolio-pro-section11 .wp-block-columns {
+    position: relative;
+    z-index: 0;
+}
+
+.freelance-portfolio-pro-section7-right .wp-block-image {
+    position: absolute;
+    right: 0;
+}
+
+.freelance-portfolio-pro-section7 {
+    position: relative;
+    overflow: hidden;
+}
+
+.freelance-portfolio-pro-section5-left {
+    position: relative;
+}
+
+.freelance-portfolio-pro-section5-left::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #19375b;
+    width: 45%;
+    height: 100%;
+    z-index: -1;
+}
+
+.freelance-portfolio-pro-header {
+    position: absolute !important;
+    width: 100%;
+    z-index: 2;
+}
+
+/**woocommerce**/
+
+.woocommerce div.product .product_title {
+    display: none;
+}
+
+.entry-summary .price {
+    padding-bottom: 15px !important;
+}
+
+.woocommerce div.product .quantity .qty {
+    width: auto;
+}
+
+.cart {
+    padding-bottom: 20px !important;
+}
+
+.woocommerce div.product div.images img {
+    width: 100% !important;
+    margin: 0 auto;
+}
+
+.woocommerce-tabs .tabs.wc-tabs {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.woocommerce-tabs .tabs.wc-tabs:before {
+    border: none !important;
+}
+
+.woocommerce-tabs .woocommerce-Tabs-panel {
+    font-size: 20px;
+    padding: 0px !important;
+    background-color: #f6f6f6;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    background: #222 !important;
+    color: #fff !important;
+    border-radius: 0px !important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+    color: #fff;
+    font-weight: 400 !important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li::after,
+.woocommerce div.product .woocommerce-tabs ul.tabs li::before {
+    display: none;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    border: none !important;
+    padding: 5px 30px !important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+    background: #5baaec !important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover {
+    color: #fff !important;
+}
+
+.related.products h2 {
+    text-align: center;
+}
+
+.related.products li .price,
+.products li .price {
+    text-align: center;
+}
+
+.related.products .button,
+.products .button {
+    display: table;
+    margin: 0 auto;
+}
+
+.related.products,
+.products {
+    text-align: center;
+}
+
+.related.products li,
+.products li {
+    float: none !important;
+    display: inline-block;
+    margin: 15px !important;
+    padding: 35px 15px 0px !important;
+    border-radius: 5px !important;
+}
+
+.related.products li img,
+.products li img {
+    width: auto !important;
+    text-align: center;
+    display: table !important;
+    margin: 0 auto !important;
+    margin-bottom: 20px !important;
+}
+
+.woocommerce div.product .related.products {
+    padding: 40px !important;
+    background-color: #f6f6f6;
+}
+
+.qty.text {
+    width: auto !important;
+}
+
+.woocommerce-account .wp-block-post-title,
+.woocommerce-account main .woocommerce,
+.woocommerce-cart .wp-block-post-title,
+.woocommerce-cart main .woocommerce,
+.woocommerce-checkout .wp-block-post-title,
+.woocommerce-checkout main .woocommerce {
+    max-width: 100%;
+}
+
+.woocommerce-page .button {
+    padding: 10px 35px !important;
+}
+
+.woocommerce-Price-amount bdi {
+    font-weight: 600;
+}
+
+.select2-container--default .select2-selection--single,
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea {
+    border: 1px solid #222;
+    border-radius: 0px;
+}
+
+body.home .freelance-portfolio-pro-menu li:nth-child(1) span {
+    color: #5baaec;
+}
+
+body.home .freelance-portfolio-pro-menu li .wp-block-navigation__submenu-container li:nth-child(1) span {
+    color: inherit;
+}
+
+body.home .freelance-portfolio-pro-menu li .wp-block-navigation__submenu-container li:nth-child(1) span:hover,
+body.home .freelance-portfolio-pro-menu li .wp-block-navigation__submenu-container li span:hover,
+.freelance-portfolio-pro-menu li .wp-block-navigation__submenu-container li span:hover {
+    color: #5baaec;
+}
+
+.freelance-portfolio-pro-section10 .add_to_cart_button {
+    border-radius: 3px;
+    background-color: #19375b;
+    padding: 12px 25px !important;
+}
+
+.added_to_cart.wc-forward {
+    display: block;
+}
+
+.current-menu-item a {
+    color: #5baaec;
+}
+
+/* *-*-*-*-*-*-*-*-*-* New CSS	*-*-*-*-*-*-*-*-*-*-*-* */
+
+body .wp-site-blocks {
+    overflow: hidden;
+}
+
+.wpcf7 form .wpcf7-response-output {
+    margin: 0;
+}
+
+/********************************* new architect theme css*********************************/
+
+.architect-container {
+    max-width: 1400px !important;
+    margin: 0px auto !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+li a.home.active,
+a.services.active,
+a.project.active,
+a.blog.active,
+a.contact.active {
+    color: orange;
+}
+
+/************* header section css ******************************************/
+
+.header-section {
+    position: absolute !important;
+    z-index: 99999999 !important;
+    top: 60px !important;
+    color: white !important;
+}
+
+.slider-section {
+    position: relative !important;
+    z-index: 000 !important;
+}
+
+.header-section li:hover,
+.header-section li.active {
+    border-top: 5px solid;
+    border-image-source: linear-gradient(90deg, #57e2d0 0%, #f3bb57 51.5%, #ff0180 100%);
+    border-image-slice: 1;
+}
+
+.header-section ul.wp-block-navigation__container.is-responsive.wp-block-navigation {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Add custom styles for the current menu item */
+
+nav a.current-menu-item {
+    background: linear-gradient(90deg, #57e2d0 0%, #f3bb57 51.5%, #ff0180 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Additional styles for the active state to make it visually distinct */
+
+.header-section li.active {
+    background-color: #ffcc00;
+    /* Change the background color for the active state */
+    color: #333;
+    /* Change the text color for the active state */
+}
+
+/* .current-menu-item::before, .current-menu-parent::before {
+    content: "";
+    width: 100%;
+    height: 5px;
+    background: var(--primary-color);
+    bottom: -23px;
+    right: 0;
+    position: absolute;
+} */
+
+/********* slider section css ****************************************/
+
+.slider-container-fluid {
+    max-width: 100% !important;
+    margin: 0px !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.slider-section .slider-right-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider-left-col-group {
+    position: relative;
+}
+
+.slider-section .videopopup-group {
+    position: absolute;
+    right: 0px;
+    bottom: 23%;
+    width: fit-content;
+    transform: translateX(120px);
+}
+
+.slider-section img.normal-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+figure.wp-block-image.size-full {
+    margin: 0;
+}
+
+.architech-group {
+    position: absolute;
+    z-index: 9999999;
+    bottom: 33px;
+    left: 30px;
+    opacity: 0.1;
+}
+
+.architech-group h2.stk-block-heading__text.has-text-color {
+    color: rgba(255, 255, 255, 0.5) !important;
+    text-shadow: 4px 4px 0px rgb(255 255 255) !important;
+}
+
+/*********** Our Achievements section css ***********************/
+
+.achievements-left-counter-main-col {
+    gap: 20px !important;
+}
+
+.achievements-right-col-group img {
+    max-width: 100% !important;
+    object-fit: contain !important;
+    position: relative !important;
+    /* background-color: #373737 !important; */
+    /* box-shadow: 30px -30px 0px 0 rgba(0, 0, 0, 0.5) !important; */
+}
+
+/*********** Img card section css ***************************/
+
+.img-card-main-cover {
+    position: relative;
+}
+
+.img-card-section .img-card-stack {
+    position: absolute;
+    bottom: 25px;
+}
+
+/*********** our services section css ***************************/
+
+.our-services-section .services-main-col {
+    gap: 15px;
+}
+
+/* .orange-servicebox {
+  box-shadow: 0 8px 4px linear-gradient(90deg, #57E2D0 0%, #F3BB57 51.5%, #FF0180 100%) !important;
+} */
+
+.orange-servicebox {
+    position: relative;
+    z-index: 1;
+    /* Ensure the pseudo-element appears below the content */
+}
+
+.orange-servicebox::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    /* Position below the box */
+    left: 0;
+    right: 0;
+    height: 8px;
+    /* Shadow height */
+    background: linear-gradient(90deg, #57e2d0 0%, #f3bb57 51.5%, #ff0180 100%);
+    z-index: -1;
+    /* Place it behind the box */
+    opacity: 0.6;
+    /* Optional: Adjust for a shadow effect */
+}
+
+/************* gallery section *************************/
+
+.luxurious-villa-stack {
+    position: absolute;
+    top: 225px;
+    max-width: 270px !important;
+    height: 110px !important;
+    left: 12px;
+}
+
+.luxurious-villa-small-stack {
+    position: absolute;
+    top: 225px;
+    max-width: 225px !important;
+    height: 110px !important;
+    left: 12px;
+}
+
+.luxurious-villa-gallery {
+    position: relative;
+}
+
+.gallery-section .stk-de659b0-container,
+.stk-e7bfbde-container,
+.stk-303d36d-container,
+.stk-f2c8208-container {
+    margin: 0px !important;
+}
+
+.gallery-section .all-project-main-col {
+    gap: 20px !important;
+}
+
+.gallery-section .left-gal-one {
+    gap: 20px;
+}
+
+.gallery-section .gal-col-right-two {
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.gallery-section .wp-image-68 {
+    margin-top: 15px !important;
+}
+
+.gallery-section .interior-gal-main-col {
+    gap: 20px;
+}
+
+.gallery-section .tab-three-gal {
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.gallery-section .residential-col-two {
+    gap: 20px;
+}
+
+.gallery-section .residential-col-one {
+    gap: 20px;
+}
+
+/*********** hover effets of gallery section ************************/
+
+.luxurious-villa-stack {
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.luxurious-villa-gallery:hover .luxurious-villa-stack {
+    opacity: 1;
+}
+
+.luxurious-villa-small-stack {
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.luxurious-villa-gallery:hover .luxurious-villa-small-stack {
+    opacity: 1;
+}
+
+/****************** Team section ***********************************/
+
+.team-section .gutentor-single-item-image-box {
+    position: relative;
+}
+
+.team-section .gutentor-single-item-content {
+    position: absolute;
+    bottom: 44px;
+    left: 0;
+    width: 300px !important;
+    background-color: #373737;
+    right: 0;
+    margin: 0px auto;
+    padding: 20px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start;
+}
+
+.team-section .gutentor-single-item-title,
+.team-section .gutentor-single-item-designation {
+    color: white;
+}
+
+.team-section .grid-container {
+    max-width: 100% !important;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+/********** team section inner cards hover css ********************/
+
+.gutentor-single-item-content {
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.gutentor-template-wrapper:hover .gutentor-single-item-content {
+    opacity: 1;
+}
+
+.team-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/************* video section css ************************/
+
+.video-section .gutentor-element-video-popup .gutentor-video-popup-holder {
+    background: none !important;
+}
+
+.video-section .heading-stack {
+    gap: 60px;
+}
+
+.video-section .wp-block-cover.second-cover-video-section {
+    height: 580px;
+}
+
+.video-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/************ testimonail section css **************************/
+
+.testimonial-container {
+    max-width: 1500px !important;
+    margin: 0px auto !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/* .testimonial-section .testi-two-main-col {
+    gap: 30px;
+} */
+
+.testimonial-section .kt-testimonial-meta-wrap {
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.testimonial-section .kt-testimonial-text-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.testimonial-section .kt-testimonial-content {
+    text-align: left;
+}
+
+.testimonial-section .kt-testimonial-item-wrap {
+    opacity: 0.7;
+}
+
+/******************** our partners section ****************************/
+
+.partners-container {
+    max-width: 1500px !important;
+    margin: 0px auto !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.our-partners-section .our-section-main-col {
+    column-gap: 60px;
+}
+
+.our-partners-section .branding-img-left-col-stack,
+.branding-img-right-col-stack {
+    row-gap: 40px;
+}
+
+/********************* newsletter section css ***********************************/
+
+.newsletter-section .newsletter-form p {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-start;
+}
+
+/*************** 
+
+
+
+section css ***********************************/
+
+.footer-section .footer-col-two-stack,
+.footer-col-three-stack,
+.footer-col-four-stack {
+    gap: 24px;
+}
+
+.footer-section .contact-us-stack {
+    gap: 24px;
+}
+
+.footer-section .footer-col-three-stack {
+    align-items: end;
+}
+
+#service {
+    width: 52%;
+    text-align: left;
+}
+
+#support {
+    width: 25%;
+    text-align: right;
+}
+
+#product {
+    width: 56%;
+    text-align: left;
+}
+
+.address-stack h2 {
+    position: relative;
+}
+
+.address-stack h2::before {
+    content: "Address:";
+    position: absolute;
+    color: white;
+}
+
+.phone-number-stack p.gutentor-text {
+    position: relative;
+}
+
+.phone-number-stack p.gutentor-text::before {
+    content: "Phone:";
+    position: absolute;
+    color: white;
+    display: block;
+}
+
+.email-stack p.gutentor-text {
+    position: relative;
+}
+
+.email-stack p.gutentor-text::before {
+    content: "Email:";
+    position: absolute;
+    color: white;
+    display: block;
+}
+
+.contact-container {
+    max-width: 1232px !important;
+    margin: 0px auto !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #373737;
+    border: 20px solid #262626;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 9999999999999;
+    bottom: -200px;
+    overflow: visible;
+}
+
+.newsletter-section {
+    position: relative;
+    overflow: visible;
+    z-index: 999;
+}
+
+.newsletter-section .newsletter-right-col {
+    position: relative;
+}
+
+.newsletter-section .newsletter-right-col-group {
+    position: absolute;
+    bottom: 6px;
+}
+
+a.gutentor-element-advanced-text-link {
+    text-decoration: none;
+    position: relative;
+}
+
+p.gutentor-text {
+    position: relative !important;
+}
+
+/* p.gutentor-text::before {
+    position: absolute !important;
+    content: "Phone" !important;
+    color: white !important;
+} */
+
+.stk-block-tab-labels__text {
+    position: relative !important;
+}
+
+.stk-2f4150e .stk-block-tabs__tab.stk-block-tabs__tab--active::after {
+    position: absolute !important;
+    content: "" !important;
+    /* background: orange !important; */
+    margin: auto !important;
+    right: 70px;
+    left: 0px;
+    display: inline-block !important;
+    width: 50%;
+    border-bottom: none !important;
+    height: 4px !important;
+    bottom: 0;
+    background: linear-gradient(90deg, #57e2d0 0%, #f3bb57 51.5%, #ff0180 100%) !important;
+}
+
+.stk-block-tabs__tab--active {
+    position: relative;
+    border-color: unset !important;
+}
+
+.stk-2f4150e .stk-block-tabs__tab.stk-block-tabs__tab--active {
+    border-color: #ff9f3300 !important;
+    border-bottom-width: 4px !important;
+}
+
+#stk-block-tab-label-88d09d4-1 {
+    border-bottom: none !important;
+}
+
+#stk-block-tab-label-88d09d4-2 {
+    border-bottom: none !important;
+}
+
+#stk-block-tab-label-88d09d4-3 {
+    border-bottom: none !important;
+}
+
+#stk-block-tab-label-88d09d4-4 {
+    border-bottom: none !important;
+}
+
+#stk-block-tab-label-88d09d4-5 {
+    border-bottom: none !important;
+}
+
+/********** responsive css all media *******************/
+
+@media (max-width: 1440px) {
+    .architect-container {
+        max-width: 1320px !important;
+        margin: 0px auto !important;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .architech-group h2.stk-block-heading__text.has-text-color {
+        color: rgba(255, 255, 255, 0.5) !important;
+        text-shadow: 4px 4px 0px rgb(255 255 255) !important;
+        font-size: 110px !important;
+        line-height: 70px !important;
+    }
+
+    .architech-group {
+        position: absolute;
+        z-index: 9999999;
+        bottom: 15px;
+        left: 15px;
+        opacity: 0.1;
+    }
+
+    .slider-section .videopopup-group {
+        position: absolute;
+        right: 60px;
+        bottom: 13%;
+        width: fit-content;
+        transform: translateX(120px);
+    }
+
+    .slider-section .slider-right-col {
+        padding: 0px 100px !important;
+    }
+
+    .slider-section figure.wp-block-image.size-large {
+        margin: 0px !important;
+    }
+
+    .luxurious-villa-small-stack {
+        position: absolute;
+        top: 160px;
+        max-width: 225px !important;
+        height: 110px !important;
+        left: 42px;
+    }
+
+    .luxurious-villa-stack {
+        position: absolute;
+        top: 175px;
+        max-width: 270px !important;
+        height: 110px !important;
+        left: 72px;
+    }
+
+    #experienced-architects {
+        margin-bottom: 40px !important;
+    }
+
+    .testimonial-section .testi-two-main-col {
+        gap: 20px;
+    }
+
+    #support {
+        width: 26%;
+        text-align: right;
+    }
+
+    .gallery-section img.wp-block-cover__image-background.wp-image-124 {
+        object-position: 0% 69% !important;
+    }
+}
+
+@media (max-width: 1366px) {
+    .architect-container {
+        max-width: 1220px !important;
+        margin: 0px auto !important;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .header-section ul {
+        gap: 52px;
+    }
+
+    .slider-section .slider-right-col {
+        padding: 0px 75px !important;
+    }
+
+    .architech-group h2.stk-block-heading__text.has-text-color {
+        color: rgba(255, 255, 255, 0.5) !important;
+        text-shadow: 4px 4px 0px rgb(255 255 255) !important;
+        font-size: 90px !important;
+        line-height: 70px !important;
+    }
+
+    .our-achievements-section .achievements-left-col {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .luxurious-villa-stack {
+        position: absolute;
+        top: 155px;
+        max-width: 270px !important;
+        height: 110px !important;
+        left: 72px;
+    }
+
+    .testimonial-container {
+        max-width: 1280px !important;
+        margin: 0px auto !important;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .partners-container {
+        max-width: 1280px !important;
+        margin: 0px auto !important;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .wp-block-cover.tab-gallery-section-inner-section {
+        min-height: 300px;
+    }
+
+    .our-partners-section .right-main-col {
+        padding: 30px 0px !important;
+    }
+
+    #support {
+        width: 28%;
+        text-align: right;
+    }
+
+    #service {
+        width: 60%;
+        text-align: left;
+    }
+
+    #product {
+        width: 40%;
+        text-align: left;
+    }
+
+    .contact-container {
+        max-width: 1140px !important;
+        margin: 0px auto !important;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        background-color: #373737;
+        border: 20px solid #262626;
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 9999999999999;
+        bottom: -200px;
+    }
+
+    .gallery-section img.wp-block-cover__image-background.wp-image-124 {
+        object-position: 0% 74% !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .our-services-section .services-main-col .kt-blocks-info-box-title {
+        font-size: 22px !important;
+    }
+
+    .architect-container {
+        max-width: 1140px !important;
+        margin: 0px auto !important;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .header-section ul {
+        gap: 30px;
+    }
+
+    .header-section {
+        position: absolute !important;
+        z-index: 99999999 !important;
+        top: 50px !important;
+        color: white !important;
+    }
+
+    .slider-section .slider-right-col {
+        padding: 70px 40px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .slider-section .stk-aaee9a2 .stk-block-heading__text {
+        font-size: 48px !important;
+        color: #ffffff !important;
+        line-height: 64px !important;
+        font-weight: 700 !important;
+        font-family: "Nunito", Sans-serif !important;
+        letter-spacing: 0px !important;
+    }
+
+    .architech-group h2.stk-block-heading__text.has-text-color {
+        color: rgba(255, 255, 255, 0.5) !important;
+        text-shadow: 4px 4px 0px rgb(255 255 255) !important;
+        font-size: 60px !important;
+        line-height: 27px !important;
+    }
+
+    .architech-group {
+        position: absolute;
+        z-index: 9999999;
+        bottom: 0px;
+        left: 15px;
+        opacity: 0.1;
+    }
+
+    .slider-section img.normal-image {
+        width: 60% !important;
+        height: auto !important;
+        object-fit: contain !important;
+    }
+
+    .slider-section .videopopup-group {
+        position: absolute;
+        right: 50px;
+        bottom: 10%;
+        width: fit-content;
+        transform: translateX(120px);
+    }
+
+    .our-achievements-section .achievements-inner-section {
+        padding: 90px 0px !important;
+    }
+
+    .our-achievements-section .achievements-left-col {
+        padding: 0px !important;
+    }
+
+    .img-card-section .img-card-stack {
+        position: absolute;
+        bottom: 22px;
+        left: 0;
+        padding-left: 10px !important;
+    }
+
+    .img-card-section p.stk-block-subtitle__text.stk-subtitle.has-text-color.has-text-align-center-mobile {
+        line-height: 24px !important;
+    }
+
+    .our-services-section .services-main-col {
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .our-services-section .our-services-inner-section {
+        padding-bottom: 0px !important;
+    }
+
+    .wp-block-cover.tab-gallery-section-inner-section {
+        min-height: 300px;
+    }
+
+    .luxurious-villa-small-stack {
+        position: absolute;
+        top: 101px;
+        max-width: 175px !important;
+        height: 90px !important;
+        left: 42px;
+        padding: 15px;
+    }
+
+    .luxurious-villa-stack {
+        position: absolute;
+        top: 90px;
+        max-width: 260px !important;
+        height: 100px !important;
+        left: 72px;
+        padding: 15px;
+    }
+
+    .team-section .grid-container {
+        max-width: 100% !important;
+        padding: 0px 20px !important;
+        margin: 0px !important;
+    }
+
+    .team-section .gutentor-single-item-content {
+        position: absolute;
+        bottom: 44px;
+        left: 0;
+        width: 208px !important;
+        background-color: #1d2d31;
+        right: 0;
+        margin: 0px auto;
+        padding: 10px !important;
+    }
+
+    .video-section .wp-block-cover.second-cover-video-section {
+        height: 500px;
+    }
+
+    .video-section .heading-stack {
+        gap: 40px;
+    }
+
+    .testimonial-section {
+        padding-bottom: 0px !important;
+    }
+
+    .our-partners-section .our-section-main-col {
+        column-gap: 30px;
+    }
+
+    .our-partners-section .right-main-col {
+        padding: 0px !important;
+    }
+
+    .right-main-col img {
+        width: 80% !important;
+        height: 100% !important;
+        object-fit: contain !important;
+    }
+
+    .left-main-col img.wp-image-59 {
+        width: 100% !important;
+        height: 500px;
+        object-fit: cover;
+    }
+
+    .branding-img-main-col {
+        padding: 30px 0px !important;
+    }
+
+    .our-partners-section .branding-img-left-col-stack,
+    .branding-img-right-col-stack {
+        row-gap: 30px;
+    }
+
+    .contact-container {
+        max-width: 900px !important;
+        margin: 0px auto !important;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        background-color: #373737;
+        border: 20px solid #262626;
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 9999999999999;
+        bottom: -100px;
+    }
+
+    .newsletter-section .newsletter-left-col-stack {
+        padding: 30px 0px !important;
+    }
+
+    .newsletter-section .newsletter-left-col {
+        padding-left: 20px !important;
+    }
+
+    .newsletter-section .newsletter-form p {
+        display: flex;
+        gap: 5px;
+        justify-content: flex-start;
+        margin-bottom: 0px !important;
+    }
+
+    .newsletter-section .wp-block-stackable-subtitle.stk-block-subtitle.stk-block.stk-13de55c {
+        margin-bottom: 10px !important;
+    }
+
+    #support {
+        width: 42%;
+        text-align: right;
+    }
+
+    #service {
+        width: 73%;
+        text-align: left;
+    }
+
+    #product {
+        width: 50%;
+        text-align: left;
+    }
+}
+
+@media (max-width: 768px) {
+    #support {
+        width: 30%;
+    }
+
+    .architect-container {
+        max-width: 720px !important;
+        margin: 0px auto !important;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    #product {
+        width: 30% !important;
+    }
+
+    .header-section .wp-block-column.header-left-col {
+        flex-basis: 30% !important;
+    }
+
+    .header-section .wp-block-column.header-right-col {
+        flex-basis: 70% !important;
+    }
+
+    .header-section {
+        position: absolute !important;
+        z-index: 99999999 !important;
+        top: 50px !important;
+        color: black !important;
+    }
+
+    .header-section ul {
+        gap: 15px;
+        color: white;
+    }
+
+    .header-section .header-right-col-row {
+        padding: 15px 0px !important;
+    }
+
+    .slider-section img.wp-image-77 {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: contain !important;
+        opacity: 0.9 !important;
+    }
+
+    .slider-section .videopopup-group {
+        position: absolute;
+        right: 22%;
+        bottom: 10px;
+        width: fit-content;
+        transform: translateX(120px);
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* width: 100%; */
+        /* top: 0; */
+    }
+
+    .slider-section .stk-aaee9a2 .stk-block-heading__text {
+        font-size: 64px !important;
+        color: #ffffff !important;
+        line-height: 80px !important;
+        font-weight: 700 !important;
+        font-family: "Nunito", Sans-serif !important;
+        letter-spacing: 0px !important;
+    }
+
+    .slider-section .slider-right-col {
+        padding: 70px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .slider-section .slider-right-col {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90%;
+    }
+
+    .our-achievements-section .achievements-right-col {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .achievements-right-col-group img {
+        max-width: 100% !important;
+        object-fit: contain !important;
+        position: relative !important;
+        /* background-color: #373737 !important;
+    box-shadow: 20px -20px 0px 0 rgba(0, 0, 0, 0.5) !important; */
+    }
+
+    .gallery-section .luxurious-villa-small-stack .stk-block-heading__text {
+        font-size: 17px !important;
+    }
+
+    .newsletter-section .newsletter-form button {
+        font-size: 14px;
+    }
+
+    .our-achievements-section .wp-block-column.counter-col-one,
+    .our-achievements-section .wp-block-column.counter-col-two,
+    .our-achievements-section .wp-block-column.counter-col-three {
+        flex-basis: 31.33% !important;
+    }
+
+    .our-achievements-section .achievements-inner-section {
+        padding: 30px 0px !important;
+    }
+
+    .our-services-section .services-heading-stack {
+        align-items: flex-start;
+    }
+
+    .our-services-section p.stk-block-subtitle__text.stk-subtitle.has-text-color.has-text-align-center.has-text-align-center-mobile {
+        text-align: justify;
+    }
+
+    .our-services-section .services-main-col {
+        gap: 25px;
+        padding: 0px;
+    }
+
+    .our-services-section .our-services-inner-section {
+        padding-bottom: 0px !important;
+        padding-top: 40px !important;
+    }
+
+    .gallery-section .gallery-section-heading-stack {
+        align-items: flex-start;
+    }
+
+    .gallery-section p.stk-block-subtitle__text.stk-subtitle.has-text-color.has-text-align-center.has-text-align-center-mobile {
+        text-align: left;
+    }
+
+    .luxurious-villa-small-stack {
+        position: absolute;
+        top: 0;
+        max-width: 175px !important;
+        height: 90px !important;
+        left: 12px;
+        padding: 15px;
+        bottom: 60px;
+    }
+
+    .luxurious-villa-stack {
+        position: absolute;
+        top: 0;
+        max-width: 260px !important;
+        height: 100px !important;
+        left: 12px;
+        padding: 15px;
+        bottom: 60px;
+    }
+
+    .team-section {
+        padding: 40px 0px !important;
+    }
+
+    .team-section .grid-container {
+        max-width: 100% !important;
+        padding: 0px 0px !important;
+        margin: 0px !important;
+    }
+
+    .testimonial-section {
+        padding-top: 40px !important;
+        padding-bottom: 0px;
+    }
+
+    .testimonial-section .testi-two-main-col {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .our-partners-inner-section {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+
+    .testimonial-container {
+        max-width: 780px !important;
+        margin: 0px auto !important;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .our-partners-section .wp-block-column.branding-img-left-col,
+    .our-partners-section .wp-block-column.branding-img-right-col {
+        flex-basis: 50% !important;
+    }
+
+    .left-main-col img.wp-image-59 {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: contain !important;
+    }
+
+    .newsletter-section .wp-block-column.newsletter-left-col,
+    .newsletter-section .wp-block-column.newsletter-right-col {
+        flex-basis: 50% !important;
+    }
+
+    .stk-4765843 .stk-block-heading__text {
+        font-size: 32px !important;
+        line-height: 48px !important;
+    }
+
+    .newsletter-section h2.stk-block-heading__text.has-text-color {
+        font-size: 32px !important;
+        line-height: 48px !important;
+    }
+
+    .newsletter-section .newsletter-left-col-stack {
+        padding: 10px 0px !important;
+    }
+
+    .newsletter-section .newsletter-left-col {
+        padding-left: 10px !important;
+    }
+
+    .newsletter-section p.stk-block-subtitle__text.stk-subtitle.has-text-color {
+        font-size: 12px !important;
+        line-height: 22px !important;
+    }
+
+    .contact-container {
+        max-width: 900px !important;
+        margin: 0px auto !important;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        background-color: #373737;
+        border: 20px solid #262626;
+        position: absolute;
+        left: 0;
+        right: 0;
+        z-index: 9999999999999;
+        bottom: 0px;
+    }
+
+    .footer-section .wp-block-column.footer-one-col {
+        flex-basis: 50% !important;
+    }
+
+    .footer-section .wp-block-column.footer-col-two {
+        flex-basis: 50% !important;
+    }
+
+    .footer-section .wp-block-column.footer-col-three {
+        flex-basis: 50% !important;
+    }
+
+    .footer-section .wp-block-column.footer-col-four {
+        flex-basis: 50% !important;
+    }
+
+    .footer-section figure.wp-block-image.size-full {
+        text-align: left !important;
+    }
+
+    .footer-section {
+        padding-top: 90px !important;
+    }
+
+    .footer-col-four-stack {
+        align-items: flex-end !important;
+    }
+
+    .footer-col-four-stack nav {
+        width: 30%;
+    }
+}
+
+@media (max-width: 575px) {
+    .slider-section .slider-right-col {
+        padding: 20px !important;
+    }
+}
+
+@media (max-width: 430px) {
+
+    /* .header-section .wp-block-column.header-left-col {
+    flex-basis: 80% !important;
+  } */
+    .slider-section .slider-right-col-stack {
+        align-items: center;
+    }
+
+    .wp-block-navigation__responsive-container-open {
+        color: white;
+    }
+
+    .stk-block-tab-labels__wrapper {
+        display: inline;
+    }
+
+    .header-section .wp-block-column.header-right-col {
+        flex-basis: 50% !important;
+    }
+
+    .header-section .header-right-col-row {
+        padding: 0px !important;
+        margin-left: 0px;
+    }
+
+    .slider-section .stk-aaee9a2 .stk-block-heading__text {
+        font-size: 36px !important;
+        color: #ffffff !important;
+        line-height: 48px !important;
+        font-weight: 700 !important;
+        font-family: "Nunito", Sans-serif !important;
+        letter-spacing: 0px !important;
+    }
+
+    .slider-section .slider-right-col {
+        padding: 10px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .slider-section .slider-right-col {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .slider-section .videopopup-group {
+        position: relative;
+        right: 15%;
+        bottom: 0;
+        width: fit-content;
+        transform: translateX(120px);
+        z-index: 9999999 !important;
+    }
+
+    .slider-section .gutentor-video-popup .gutentor-image-thumb {
+        width: auto;
+    }
+
+    .architech-group {
+        position: absolute;
+        z-index: 9999999;
+        bottom: 0px;
+        left: 0;
+        opacity: 0.1;
+    }
+
+    .achievements-left-col-stack {
+        align-items: center !important;
+    }
+
+    .our-achievements-section .achievements-inner-section {
+        padding: 20px 0px !important;
+    }
+
+    .our-achievements-section .wp-block-column.counter-col-one,
+    .our-achievements-section .wp-block-column.counter-col-two,
+    .our-achievements-section .wp-block-column.counter-col-three {
+        flex-basis: 50% !important;
+    }
+
+    .our-achievements-section .achievements-right-col {
+        padding: 20px 10px !important;
+    }
+
+    .achievements-left-col {
+        order: 2 !important;
+    }
+
+    .img-card-section .img-card-stack {
+        position: absolute;
+        bottom: 16px;
+        left: 0;
+        padding-left: 0px !important;
+        right: 0 !important;
+        padding-right: 0px !important;
+        align-items: center;
+    }
+
+    .our-services-section .our-services-inner-section {
+        padding-bottom: 0px !important;
+        padding-top: 30px !important;
+    }
+
+    .our-services-section .services-heading-stack {
+        padding-bottom: 30px !important;
+        align-items: center;
+    }
+
+    .our-services-section p.stk-block-subtitle__text.stk-subtitle.has-text-color.has-text-align-center.has-text-align-center-mobile {
+        text-align: center;
+    }
+
+    .wp-block-cover.tab-gallery-section-inner-section {
+        min-height: 250px !important;
+    }
+
+    .gallery-section .gallery-section-heading-stack {
+        align-items: center;
+    }
+
+    .gallery-section p.stk-block-subtitle__text.stk-subtitle.has-text-color.has-text-align-center.has-text-align-center-mobile {
+        text-align: center;
+    }
+
+    .luxurious-villa-small-stack {
+        position: absolute;
+        top: 0;
+        max-width: 175px !important;
+        height: 90px !important;
+        left: 0;
+        padding: 15px;
+        bottom: 60px;
+        right: 0;
+    }
+
+    .luxurious-villa-stack {
+        position: absolute;
+        top: 0;
+        max-width: 220px !important;
+        height: 98px !important;
+        left: 0;
+        padding: 17px;
+        bottom: 30px;
+        right: 0;
+    }
+
+    #experienced-architects {
+        margin-bottom: 10px !important;
+    }
+
+    .team-section img {
+        width: unset;
+        height: unset;
+        object-fit: contain !important;
+    }
+
+    .testimonial-section .kt-testimonial-text-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .testimonial-section .kt-testimonial-content {
+        text-align: center;
+    }
+
+    .testimonial-section .kt-testimonial-meta-wrap {
+        justify-content: center;
+        gap: 10px;
+        margin-top: 30px;
+    }
+
+    .our-partners-section .left-main-col {
+        order: 2;
+        margin-bottom: 430px !important;
+    }
+
+    .our-partners-section .rigth-heading-stack {
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .branding-img-main-col {
+        padding: 20px !important;
+    }
+
+    .newsletter-section .wp-block-column.newsletter-left-col,
+    .newsletter-section .wp-block-column.newsletter-right-col {
+        flex-basis: 100% !important;
+    }
+
+    .footer-section .wp-block-column.footer-one-col {
+        flex-basis: 100% !important;
+    }
+
+    .footer-section .wp-block-column.footer-col-two {
+        flex-basis: 100% !important;
+    }
+
+    .footer-section .wp-block-column.footer-col-three {
+        flex-basis: 100 !important;
+    }
+
+    .footer-section .wp-block-column.footer-col-four {
+        flex-basis: 100% !important;
+    }
+
+    .footer-section .footer-one-stack {
+        align-items: center;
+    }
+
+    .footer-section .footer-col-two-stack {
+        align-items: center !important;
+    }
+
+    .footer-section .footer-col-three-stack {
+        align-items: center !important;
+    }
+
+    .footer-section .footer-col-four-stack {
+        align-items: center !important;
+    }
+
+    .footer-main-col {
+        padding: 0px !important;
+        gap: 20px;
+    }
+
+    .footer-col-two-stack ul {
+        align-items: center;
+    }
+
+    .footer-col-three-stack ul {
+        align-items: center;
+    }
+
+    .footer-col-four-stack nav.has-text-color.items-justified-left.is-vertical.wp-block-navigation.is-content-justification-left.is-layout-flex.wp-container-core-navigation-layout-4.wp-block-navigation-is-layout-flex {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-section .contact-us-stack {
+        align-items: center;
+    }
+
+    .footer-section .address-stack {
+        align-items: center;
+    }
+
+    .footer-section .phone-number-stack {
+        justify-content: center;
+    }
+
+    .footer-section .email-stack {
+        justify-content: center;
+    }
+
+    .newsletter-section .newsletter-right-col-group {
+        position: unset;
+        bottom: 6px;
+    }
+
+    .our-partners-inner-section {
+        padding-top: 30px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .newsletter-section h2.stk-block-heading__text.has-text-color {
+        font-size: 28px !important;
+        line-height: 48px !important;
+    }
+
+    .newsletter-section .newsletter-left-col-stack {
+        padding: 20px 0px !important;
+        align-items: center;
+    }
+
+    .newsletter-section .newsletter-left-col {
+        padding-left: 0px !important;
+    }
+
+    .newsletter-section input.email-input {
+        width: 100% !important;
+    }
+
+    .newsletter-section .newsletter-form p {
+        display: flex;
+        gap: 0;
+        justify-content: center;
+        margin-bottom: 0px !important;
+        flex-direction: column;
+        padding: 5px;
+        align-items: center;
+    }
+
+    .newsletter-section img.wp-image-148 {
+        width: 100% !important;
+        height: 350px !important;
+        object-fit: contain;
+    }
+
+    .footer-section figure.wp-block-image.size-full {
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 390px) {
+    .slider-section .slider-right-col {
+        padding: 20px 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+    .slider-section h2 {
+        text-align: center;
+    }
+
+    .slider-section p {
+        text-align: center;
+    }
+
+    .slider-section .slider-right-col-stack {
+        align-items: center;
+    }
+
+    .architech-group {
+        position: absolute;
+        z-index: 9999999;
+        bottom: -12px;
+        left: -71px;
+        opacity: 0.1;
+        right: 0px;
+        margin: 0px auto !important;
+    }
+
+    .slider-section img.normal-image {
+        width: 50% !important;
+        height: auto !important;
+        object-fit: contain !important;
+    }
+}
+
+/************** architech theme animctions ****************************/
+
+@media (min-width: 767px) {
+    .slider-left-col.animate__slideInLeft {
+        animation: slideInLeft;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .slider-right-col.animate__slideInRight {
+        animation: slideInRight;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .achievements-left-col.animate__slideInUp {
+        animation: slideInUp;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .achievements-right-col.animate__slideInUp {
+        animation: slideInUp;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .img-card-column.animate__slideInUp {
+        animation: slideInUp;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .services-column.animate__slideInUp {
+        animation: slideInUp;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .gallery-tab-section-main-column.animate__slideInUp {
+        animation: slideInUp;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .second-cover-video-section.animate__slideInUp {
+        animation: slideInUp;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .testi-col-left.animate__slideInUp {
+        animation: slideInUp;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .testi-col-right.animate__slideInUp {
+        animation: slideInUp;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .left-main-col.animate__slideInUp {
+        animation: slideInUp;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .right-main-col.animate__slideInUp {
+        animation: slideInUp;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .newsletter-left-col.animate__slideInUp {
+        animation: slideInUp;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .newsletter-right-col.animate__slideInUp {
+        animation: slideInUp;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .footer-main-col.animate__slideInUp {
+        animation: slideInUp;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+}
+
+/* .new-col-group-two {
+    position: absolute;
+}
+
+.new-slider-cover {
+    min-height: 760px !important;
+} */
+
+/*********** header-css ***********************/
+
+/* .saas-navbar {
+    font-family: 'Bricolage Grotesque' !important;
+    font-weight: 600 !important;
+    line-height: 17px !important;
+} */
+
+/****************** slider-css***************************/
+
+/* .slider-main-col {
+    display: flex !important;
+    justify-content: flex-end !important;
+    margin: 0px !important;
+}
+
+.slider-container {
+    max-width: 1510px !important;
+    margin: 0px auto !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.stk-block-carousel__buttons {
+    align-items: end !important;
+    margin-bottom: 12px !important;
+}
+
+.slider-section .slider-main-col-two-stack {
+    justify-content: center !important;
+    align-items: center !important;
+} */
+
+/* .slider-right-col {
+    position: relative;
+} */
+
+/* .slider-left-col {
+    position: relative;
+} */
+
+/* .teresa-potter-row {
+    position: absolute;
+    top: 57px;
+    background: white;
+    width: 265px !important;
+    border-radius: 56px;
+    justify-content: center !important;
+    box-shadow: 0px 4px 24px 0px #00000029;
+    gap: 10px;
+    height: 85px !important;
+}
+
+.teresa-potter-group {
+    margin-left: 40px !important;
+}
+
+.management-software-cover {
+    padding: 0px 10px;
+    width: 284px;
+    border-radius: 8px;
+    position: absolute;
+    background: white;
+    box-shadow: 0px 4px 16px 0px #0000001A;
+    z-index: 99999;
+    bottom: 120px;
+    right: 40%;
+}
+
+.stk-block-carousel__buttons {
+    align-items: end !important;
+    margin-bottom: 12px !important;
+    position: inherit;
+}
+
+.call-us-group {
+    background: #f0e6fd;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 30px 0px;
+    width: 460px !important;
+    position: absolute;
+    bottom: 0;
+    height: 100px !important;
+
+}
+
+.slider-main-col-two-row .stk-5483a45 {
+    width: 460px !important
+}
+
+a.gutentor-element-advanced-text-link {
+    text-decoration: none;
+    color: #000;
+}
+
+h3.gutentor-text {
+    margin-bottom: 0px !important;
+    font-family: 'Bricolage Grotesque';
+    font-weight: 600;
+    font-size: 24px !important;
+    line-height: 29px !important;
+} */
+
+/*************8 Aboutus-section-css **********************/
+
+/* .scrolling-text h2 {
+    max-width: max-content;
+    width: max-content;
+
+}
+
+.scrolling-text {
+    animation: scrollText 10s linear infinite;
+
+
+}
+
+@keyframes scrollText {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.aboutus-left-col {
+    position: relative;
+    Z-INDEX: 9999999;
+}
+
+.stk-d8669c6 .stk-block-heading__bottom-line {
+    rotate: 3deg !important;
+} */
+
+/*********** premium-features-css ***********************/
+
+/* .stk-e996824 .stk-block-heading__bottom-line {
+    rotate: 3deg !important;
+} */
+
+/*************service-section-css ********************/
+
+/* .stk-block-heading__bottom-line {
+    rotate: 3deg !important;
+}
+.service-section-post-type .grid-container {
+    max-width: 100% !important;
+    padding: 0px !important;
+}
+
+.service-section-total-leads-group {
+    max-width: 320px !important;
+    height: auto !important;
+}
+
+.service-section .gutentor-post-title-data-wrap::after {
+    content: "";
+    width: 123px;
+    height: 2px;
+    background: #6D00E7;
+    position: absolute;
+    right: unset;
+    top: unset;
+    bottom: 17px;
+    left: 0;
+    z-index: 9999999999999999999999999999999999;
+}
+
+.gutentor-post-title-data-wrap {
+    position: relative;
+    padding: 0px;
+    height: 60px;
+    overflow: visible;
+    z-index: 0;
+} */
+
+/**********why-choose-us-section-css****************/
+
+/* .why-choose-us-section img.wp-image-240 {
+    max-width: 425px !important;
+    height: auto !important;
+    object-fit: contain !important;
+} */
+
+/*********** video-section-csss*************************/
+
+/* .video-section .grid-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 30px !important;
+    align-items: center !important;
+}
+
+.gutentor-section-title.enable-title-design.text-center .gutentor-title:before {
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
+
+.video-section .gutentor-block-header {
+    order: 2;
+}
+
+.video-section-main-cover {
+    min-height: 650px !important;
+} */
+
+/************** tesimonial-section-css *****************/
+
+/* .sass-container-testi {
+    max-width: 1400px !important;
+    margin: 0px auto !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    overflow: visible !important;
+}
+
+.wp-block-group.testimonial-section-right-col-group::after {
+    content: "" !important;
+    height: 100% !important;
+    width: 100% !important;
+    position: absolute !important;
+    top: 0 !important;
+    right: -70% !important;
+    z-index: 0 !important;
+    background: #fcfaff !important;
+}
+
+.testimonial-section-right-col-group {
+    position: relative !important;
+    z-index: 99;
+}
+
+.stk-36332fa .stk-block-carousel__dots {
+    justify-content: center !important;
+    flex-direction: column !important;
+    position: absolute !important;
+    left: -28px !important;
+    bottom: 0 !important;
+}
+
+.testimonial-section-right-col {
+    position: relative !important;
+}
+
+.testimonial-section-main-column {
+    column-gap: 50px !important;
+} */
+
+/*********** best-plan-css***********************/
+
+/* .text-group {
+    margin: 0px !important;
+    writing-mode: vertical-rl !important;
+    text-orientation: upright !important;
+    white-space: nowrap !important;
+    transform: rotate(0deg) !important;
+    height: 460px !important;
+    width: 60px !important;
+    background: linear-gradient(180deg, #3D78AC 0%, #143867 100%) !important;
+    text-align: left !important;
+    padding: 15px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    color: white !important;
+
+} */
+
+/******* price-box-margin-css**********/
+
+/* .wp-block-stackable-pricing-box {
+    margin: 0px !important;
+    box-shadow: 0px 0px 16px 0px #0000001A !important;
+
+} */
+
+/* h2.stk-block-heading__text.has-text-color {
+    color: white !important;
+} */
+
+/* .stk-a1922d2-container {
+    box-shadow: 0px 0px 16px 0px #0000001A !important;
+} */
+
+/*********3rd-box-bottom-margin-css***************/
+
+/* .wp-block-stackable-icon-list.stk-364045b {
+    margin-bottom: 24px !important;
+}
+
+.price-plane-card {
+    width: 460px !important;
+    height: auto !important;
+    border-bottom: 4px solid #FCFAFF !important;
+    border-left: 4px solid #FCFAFF !important;
+
+
+}
+
+.best-plan-section .best-plan-main-column {
+    column-gap: 30px;
+} */
+
+/************ post-blog-section-css*******************************/
+
+/* .post-blog-section .grid-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0px !important;
+}
+
+.post-blog-section::after {
+    content: "The Blog";
+    color: #121212;
+    position: absolute;
+    font-size: 200px;
+    top: -60px;
+    left: 62px;
+    opacity: 2%;
+    font-family: 'Bricolage Grotesque';
+    font-weight: 600;
+}
+
+.post-blog-section {
+    position: relative;
+}
+
+.post-blog-section .wp-post-image {
+    object-fit: contain !important;
+}
+
+.gutentor-icon-before.gutentor-button .gutentor-button-icon {
+    margin-right: 8px;
+    margin-top: -21px !important;
+    color: #6D00E7;
+} */
+
+/**************** footer-section-css **************************/
+
+/* .wp-block-qubely-socialicons a {
+    gap: 10px !important;
+}
+
+.wp-block-qubely-socialicons ul {
+    margin-bottom: 0px !important;
+}
+.input-subscribe h3 {
+    font-family: 'Bricolage Grotesque' !IMPORTANT;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 16.8px !important;
+    color: #121212 !important;
+}
+.input-container::before {
+    position: absolute !important;
+    color: #121212 !important;
+    background: fefcff !important;
+    width: 112px !important;
+    height: 45px !important;
+    top: 23px !important;
+    z-index: 1 !important;
+    right: -70px !important;
+    font-family: 'FontAwesome' !important;
+    content: '\f061' !important;
+    font-size: 16px !important;
+}
+.input-container{
+    position: relative!important;
+   
+}
+.input-container::after {
+    position: absolute !important;
+    font-family: 'FontAwesome' !important;
+    content: '\f0e0' !important;
+    color: #121212 !important;
+    left: 0 !important;
+    top: 23px !important;
+    background: #FAF9FF !important;
+
+   
+
+} */
+
+/*************** responsive css-all-sections *****************/
+
+/* 
+@media screen and (max-width:1024px) and (min-width:992px) {}
+
+@media(max-width:1920px) {
+     .stk-block-carousel__buttons {
+        position: absolute !important;
+    top: unset !important;
+    bottom: -41% !important;
+    left: -18% !important;
+    }
+}
+@media(max-width:1600px) {
+    .stk-block-carousel__buttons {
+        position: absolute !important;
+        top: unset !important;
+        bottom: -67% !important;
+        left: -5% !important;
+    }
+}
+@media(max-width:1366px) {
+     .stk-block-carousel__buttons {
+        position: absolute !important;
+        top: unset !important;
+        bottom: -41% !important;
+        left: -9% !important;
+    }
+}
+
+.sass-container.new-slider-cover {
+overflow: visible !important;
+}
+@media screen and (max-width:1440px) and (min-width:1023px) {
+    .header-col-two-group {
+        padding: 0px 10px !important;
+    }
+ .slider-section .stk-block-carousel__buttons {
+        position: absolute !important;
+        top: unset !important;
+        bottom: -40% !important;
+        left: 0% !important;
+    } */
+
+/******aboutus-section-css ****************/
+
+/* .aboutus-right-col {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .aboutus-main-cover {
+        margin: 60px 0px !important;
+    }
+    .premium-features-section {
+        margin: 30px 0px !important;
+        padding: 0px 10px !important;
+    }
+    /******** service-section ********************/
+
+/* .service-section {
+        margin: 50px 0px !important;
+    }
+    .service-section-right-col {
+        padding: 120px 30px !important;
+    }
+    .why-choose-us-section {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        margin: 50px 0px !important;
+    }
+
+    .sass-container.service-section-inner-cover {
+        margin: 0px !important;
+       
+    } */
+
+/* .video-section {
+        margin: 0px !important;
+        padding: 10px 0px !important;
+    } */
+
+/*********** testimonial-section-css ********************/
+
+/* .testimonial-section {
+        margin: 40px 0px !important;
+    } 
+}
+
+@media screen and (max-width:1024px) and (min-width:767px) {
+    .saas-navbar {
+        gap: 20px !important;
+    }
+    .wp-block-stackable-icon.stk-block-icon.stk-block.stk-4a5b4c6 {
+        display: none;
+    }
+    .new-col-one{
+        display: none !important;
+    }
+    .new-col-group-two img {
+        width: 100% !important;
+        height: auto !important;
+        object-fit: contain !important;
+    }
+    .slider-section .stk-block-carousel__buttons {
+        position: absolute !important;
+        top: unset !important;
+        bottom: -40% !important;
+        left: 2% !important;
+    }
+    .teresa-potter-row {
+        position: absolute;
+        top: 57px;
+        background: white;
+        width: 265px !important;
+        border-radius: 56px;
+        justify-content: center !important;
+        box-shadow: 0px 4px 24px 0px #00000029;
+        gap: 10px;
+        height: 85px !important;
+        right: 0;
+    }
+    .management-software-cover {
+        padding: 0px 10px;
+        width: 284px;
+        border-radius: 8px;
+        position: absolute;
+        background: white;
+        box-shadow: 0px 4px 16px 0px #0000001A;
+        z-index: 99999;
+        bottom: 20px;
+        right: 0%;
+    }
+    .slider-left-col-stack {
+        padding: 0px!important;
+        padding-left: 10px !important;
+    }
+    .slider-section {
+        padding-top: 30px !important;
+    }
+    .teresa-potter-group{
+        display: none !important;
+    }
+    .aboutus-right-col {
+        padding: 0px !important;
+        padding-left: 8px !important;
+    }
+    #about-us {
+        margin-bottom: 0px !important;
+    }
+    #our-company-provide-quality-saas-solutions-for-your-businesses {
+        margin-bottom: 10px !important;
+    }
+    .aboutus-section h2.stk-block-heading__text.has-text-color {
+        font-size: 28px !important;
+        line-height: 40px !important;
+        letter-spacing: 0px !important;
+    }
+    #we-empower-people-to-unite-around-ideas-that-matter {
+        margin-bottom: 10px !important;
+    }
+    .aboutus-section h3.stk-block-heading__text.has-text-color {
+        font-size: 18px !important;
+        line-height: 24px !important;
+        letter-spacing: 0px !important;
+    }
+    .wp-block-stackable-subtitle.stk-block-subtitle.stk-block.stk-07a4cf8 {
+        margin-bottom: 10px !important;
+    }
+    .aboutus-section p.stk-block-subtitle__text.stk-subtitle.has-text-color {
+        font-size: 14px !important;
+        line-height: 24px !important;
+        letter-spacing: 0px !important;
+    }
+    .aboutus-section .wp-block-stackable-button-group.stk-block-button-group.stk-block.stk-1e2d697 {
+        margin-bottom: 10px !important;
+    }
+    #trusted-by-25000-happy-marketers-and-developers-since-2023 {
+        padding: 0px !important;
+    }
+    .premium-features-section h3.stk-block-heading__text.has-text-color {
+        font-size: 20px !important;
+        line-height: 24px !important;
+        letter-spacing: 0px !important;
+    }
+    .premium-features-section p.stk-block-subtitle__text.stk-subtitle.has-text-color {
+        font-size: 14px !important;
+        line-height: 24px !important;
+        letter-spacing: 0px !important;
+    }
+    .premium-features-section h2.stk-block-heading__text.has-text-color.has-text-align-center {
+        font-size: 28px !important;
+        line-height: 40px !important;
+        letter-spacing: 0px !important;
+    }
+    .service-section {
+        margin: 30px 0px !important;
+        padding: 0px 10px !important;
+    }
+    .service-section h2.stk-block-heading__text.has-text-color.has-text-align-center {
+        font-size: 28px !important;
+        line-height: 40px !important;
+        letter-spacing: 0px !important;
+    }
+    .service-section img {
+        object-fit: contain;
+        width: 100% !important;
+        height: auto !important;
+    }
+    .service-section h3.gutentor-post-title {
+        font-size: 22px !important;
+        line-height: 36px !important;
+        letter-spacing: 0px !important;
+    }
+    #why-choose-us {
+        margin-bottom: 0px !important;
+    }
+    #a-simple-yet-powerful-and-efficient-process {
+        margin-bottom: 10px !important;
+    }
+    .service-section-right-col {
+        padding: 10px !important;
+    }
+    .why-choose-us-section {
+        margin: 40px 0px !important;
+        padding: 0px !important;
+      
+    }
+    .video-section-main-cover {
+        min-height: 430px !important;
+    }
+    .video-section {
+        margin: 40px 0px !important;
+        padding: 0px 0px !important;
+    }
+    .video-section h2.stk-block-heading__text.has-text-color.has-text-align-center {
+        font-size: 28px !important;
+        line-height: 40px !important;
+        letter-spacing: 0px !important;
+    }
+    .service-section-total-leads-group {
+        max-width: 237px !important;
+        height: auto !important;
+    }
+    .our-records-section {
+        margin: 0px !important;
+        padding: 0px 10px !important;
+        min-height: 320px !important;
+    }
+    #our-software-help-you-grow-your-business {
+        margin-bottom: 0px !important;
+    }
+    .our-records-section h2.stk-block-heading__text.has-text-color.has-text-align-center {
+        font-size: 28px !important;
+        line-height: 40px !important;
+        letter-spacing: 0px !important;
+    }
+    .heading-main-col-stack {
+        padding-top: 0px !important;
+    }
+    .wp-block-cover .our-records-section-maincover {
+        min-height: 300px !important;
+    }
+    .testimonial-section {
+        margin: 0px 0px !important;
+        padding: 0px 10px !important;
+    }
+    .testimonial-section h2.stk-block-heading__text.has-text-color {
+        font-size: 28px !important;
+        line-height: 40px !important;
+        letter-spacing: 0px !important;
+    }
+    #see-what-our-clients-have-to-say-about-us {
+        margin-bottom: 10px !important;
+    }
+    .testimonial-section p.stk-block-subtitle__text.stk-subtitle.has-text-color {
+        font-size: 14px !important;
+        line-height: 26px !important;
+        letter-spacing: 0px !important;
+    }
+    .testimonial-section h3.stk-block-heading__text.has-text-color {
+        font-size: 18px !important;
+        line-height: 26px !important;
+        letter-spacing: 0px !important;
+    }
+    p.stk-block-subtitle__text.stk-subtitle {
+        font-size: 14px !important;
+    }
+    .faqs-right-col {
+        padding: 0px !important;
+        padding-left: 10px !important;
+    }
+    .faqs-section .stk-cf6f453 {
+        display: none !important;
+    }
+    #mostly-asked-questions-by-our-clients {
+    margin-bottom: 10px !important;
+}
+.faqs-section h2.stk-block-heading__text.has-text-color {
+    font-size: 28px !important;
+    line-height: 40px !important;
+    letter-spacing: 0px !important;
+}
+.faqs-section .wp-block-stackable-subtitle.stk-block-subtitle.stk-block.stk-822b8fc {
+    margin-bottom: 10px !important;
+}
+.faqs-section h4.stk-block-heading__text.has-text-color {
+    font-size: 18px !important;
+    line-height: 24px !important;
+    letter-spacing: 0px !important;
+}
+.wp-block-stackable-accordion p.stk-block-text__text.has-text-color {
+    font-size: 14px !important;
+    line-height: 24px !important;
+    letter-spacing: 0px !important;
+}
+.post-blog-section h2.stk-block-heading__text.has-text-color.has-text-align-center {
+    font-size: 28px !important;
+    line-height: 40px !important;
+    letter-spacing: 0px !important;
+}
+.post-blog-section .wp-post-image {
+    object-fit: contain !important;
+    height: 230px !important;
+    width: auto !important;
+}
+.gutentor-post-title a {
+    font-size: 18px !important;
+    line-height: 26px !important;
+    letter-spacing: 0px !important;
+}
+.post-blog-section .gutentor-post-desc {
+    padding-top: 35px !important;
+    margin-bottom: 0px !important;
+    font-size: 14px !important;
+}
+.why-choose-us-section img.wp-image-240 {
+    max-width: 315px !important;
+    height: auto !important;
+    object-fit: contain !important;
+}
+}
+@media screen and (max-width:768px) and (min-width:424px) {
+    .header-col-two-group .wp-block-column.header-col-two-one {
+        flex-basis: 40% !important;
+        
+    }
+    .header-col-two-group .wp-block-column.header-col-two-two {
+        flex-basis: 60% !important; 
+        
+    }
+    .header-col-two-group .wp-block-column.header-col-two-three {
+         flex-basis: 100% !important; 
+         display: none !important;
+       
+    }
+    .header-col-two-group .header-col-two-one-row {
+        justify-content: center;
+    }
+    .slider-section {
+        padding-top: 10px 0px !important;
+    }
+    .slider-section .stk-block-carousel__buttons {
+        position: absolute !important;
+        top: unset !important;
+        bottom: -44% !important;
+        left: 2% !important;
+    }
+    .slider-section .stk-block-carousel__buttons {
+        position: absolute !important;
+        top: unset !important;
+        bottom: -44% !important;
+        left: 2% !important;
+    }
+    .management-software-cover {
+        padding: 0px 10px;
+        width: 284px;
+        border-radius: 8px;
+        position: absolute;
+        background: white;
+        box-shadow: 0px 4px 16px 0px #0000001A;
+        z-index: 99999;
+        bottom: 37px;
+        right: 0%;
+    }
+    .slider-section {
+        padding-top: 30px !important;
+        padding-bottom: 0px !important;
+    }
+    .call-us-group {
+        background: #f0e6fd;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        padding: 30px 0px;
+        width: 460px !important;
+        position: absolute;
+        bottom: 57px;
+        height: 100px !important;
+    }
+    .teresa-potter-row{
+        display: none !important;
+    }
+    .new-col-group-two img.wp-image-65 {
+        opacity: 0.9;
+    }
+    .aboutus-section .aboutus-main-cover {
+        margin: 20px 0px !important;
+    }
+    .slider-left-col-stack {
+        padding: 0px!important;
+        padding-left: 20px !important;
+    }
+    .aboutus-right-col {
+        padding: 0px 20px !important;
+        
+    }
+    #about-us {
+        margin: 10px 0px !important;
+    }
+    .premium-features-section .wp-block-column.premium-features-col-two-one {
+        flex-basis: 50% !important;
+    }
+    .premium-features-section .wp-block-column.premium-features-col-two-two {
+        flex-basis: 50% !important;
+    }
+    .premium-features-section .wp-block-column.premium-features-col-two-three {
+        flex-basis: 50% !important;
+    }
+    .premium-features-section .wp-block-column.premium-features-col-two-four {
+        flex-basis: 50% !important;
+    }
+    .premium-features-col-two-one-stack {
+        align-items: center !important;
+    }
+    .premium-features-col-two-two-stack {
+        align-items: center !important;
+    }
+    .premium-features-col-two-three-stack {
+        align-items: center !important;
+    }
+    .premium-features-col-two-four-stack {
+        align-items: center !important;
+    }
+    .premium-features-section .premium-features-main-col-two {
+        margin: 20px 0px !important;
+        row-gap: 50px !important;
+    }
+    .service-section-col-two-stack {
+        padding: 0px !important;
+    }
+    .gutentor-post-title a {
+        font-size: 16px !important;
+        line-height: 26px !important;
+        letter-spacing: 0px !important;
+    }
+    .service-section img {
+        object-fit: contain;
+        width: 100% !important;
+        height: auto !important;
+    }
+    .star-img-stack {
+        display: none !important;
+    }
+    .three-img-combine-stack {
+        display: none !important;
+    }
+    .why-choose-us-section .wp-block-column.service-section-left-inner-col-two {
+        flex-basis: 50% !important;
+    }
+    .why-choose-us-section .wp-block-column.service-section-right-col {
+        flex-basis: 50% !important;
+    }
+    .service-section-left-inner-col-one {
+        display: none !important;
+    }
+    .video-section {
+        margin: 20px 0px !important;
+        padding: 0px !important;
+    }
+    .video-section .video-section-col-two-stack {
+        padding: 0px !important;
+    }
+    .our-records-section .wp-block-column.counter-main-column-one {
+        flex-basis: 20% !important;
+    }
+    .our-records-section .wp-block-column.counter-main-column-two {
+        flex-basis: 20% !important;
+    }
+    .our-records-section .wp-block-column.counter-main-column-three {
+        flex-basis: 20% !important;
+    }
+    .our-records-section .wp-block-column.counter-main-column-four {
+        flex-basis: 20% !important;
+    }
+    .video-section {
+        margin: 0px !important;
+        padding: 20px 0px !important;
+    }
+    #testimonials {
+        margin-bottom: 10px !important;
+    }
+    .testimonial-section {
+        margin: 0px 0px !important;
+        padding: 0px 20px !important;
+    }
+    .stk-36332fa .stk-block-carousel__dots {
+        
+        left: -28px !important;
+        bottom: 0 !important;
+    }
+    .stk-36332fa .stk-block-carousel__dots {
+        justify-content:unset !important;
+         flex-direction: unset !important;
+         position: unset !important; 
+        left: -28px !important;
+        bottom: 0 !important;
+    }
+    .testimonial-section .testimonial-section-right-col-group {
+        padding-left: 0px !important;
+    }
+    .faqs-section .stk-container {
+        margin-left: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+       
+    }   
+    .best-plan-section .wp-block-column.best-plan-main-column-one {
+        flex-basis: 40% !important;
+    }
+    .best-plan-section .wp-block-column.best-plan-main-column-two {
+        flex-basis: 40% !important;
+    }
+    .best-plan-section .best-plan-main-column {
+        column-gap: 20px;
+    }
+    .best-plan-section .wp-block-column.best-plan-main-column-three {
+        flex-basis: 50% !important;
+    }
+    .best-plan-section .best-plan-main-column-three-row {
+        align-items: center !important;
+        justify-content: center !important;
+        margin-top: 20px !important;
+        max-width: 360px !important;
+    }
+    .post-blog-section .heading-col-two-stack {
+        padding: 0px !important;
+    }
+    .post-blog-section .wp-post-image {
+        object-fit: contain !important;
+        height: 100% !important;
+        width: 100% !important;
+    }
+    .post-blog-section h3.gutentor-post-title {
+        font-size: 16px !important;
+        line-height: 21px !important;
+        letter-spacing: 0px !important;
+    }
+    .post-blog-section .gutentor-post-desc {
+        padding-top: 25px !important;
+        margin-bottom: 0px !important;
+        font-size: 14px !important;
+    }
+    .gutentor-icon-before.gutentor-button .gutentor-button-icon {
+        margin-right: 8px;
+        margin-top: -12px !important;
+        color: #6D00E7 !important;
+    }
+    .social-media-group .wp-block-column.facebook-column {
+        flex-basis: 20% !important;
+    }
+    .social-media-group .wp-block-column.twitter-column {
+        flex-basis: 20% !important;
+    }
+    .social-media-group .wp-block-column.Instagram-column {
+        flex-basis: 20% !important;
+    }
+    .social-media-group .wp-block-column.linkedIn-column {
+        flex-basis: 20% !important;
+    }
+    .footer-section .wp-block-column.footer-col-one {
+        flex-basis: 50% !important;
+    }
+    .footer-section .wp-block-column.footer-col-two {
+        flex-basis: 50% !important;
+    }
+    .footer-section .wp-block-column.footer-col-three {
+        flex-basis: 50% !important;
+    }
+    .footer-section .wp-block-column.footer-col-four {
+        flex-basis: 50% !important;
+    }
+    .footer-section .footer-col-one-stack {
+        padding: 0px !important;
+        padding-right: 10px !important;
+    }
+    .footer-section .footer-main-column {
+        row-gap: 30px !important;
+    }
+    .gutentor-element-advanced-text .gutentor-text {
+        margin-bottom: 0px !important;
+       
+    }
+    .location-row {
+        column-gap: 10px !important;
+    }
+    .mobile-row {
+        column-gap: 10px !important;
+    }
+    .mail-row {
+        column-gap: 10px !important;
+    }
+    .input-container::before {
+        position: absolute !important;
+        color: #121212 !important;
+        width: 112px !important;
+        height: 45px !important;
+        top: 23px !important;
+        z-index: 1 !important;
+        right: -70px !important;
+        font-family: 'FontAwesome' !important;
+        content: '\f061' !important;
+        font-size: 16px !important;
+        background-color: #FAF9FF !important;
+    }
+    .input-container{
+        position: relative!important;
+       
+    }
+    .input-container::after {
+        position: absolute !important;
+        font-family: 'FontAwesome' !important;
+        content: '\f0e0' !important;
+        color: #121212 !important;
+        left: 0 !important;
+        top: 23px !important;
+    }
+    
+}
+@media screen and (min-width:200px) and (max-width:768px) {
+    .header-col-two-three-row {
+        display: none !important;
+    }
+    .service-section-left-inner-col-one{
+        display: none !important;
+    }
+    
+}
+@media screen and (min-width:320px) and (max-width:425px) {
+    .teresa-potter-row{
+        display: none !important;
+    }
+    .header-col-two-group .wp-block-column.header-col-two-one {
+        flex-basis: 50% !important;
+    }
+    .header-col-two-group .wp-block-column.header-col-two-two {
+        flex-basis: 50% !important;
+    }
+    .premium-features-col-two-one-stack,.premium-features-col-two-two-stack,.premium-features-col-two-three-stack,.premium-features-col-two-four-stack{
+        align-items: center !important;
+    }
+    
+    .slider-section {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .header-col-two-group img.wp-image-216 {
+        max-width: 160px !important;
+        height: auto !important;
+        object-fit: contain !important;
+    }
+    .header-col-two-two-row {
+        padding-top: 22px !important;
+        padding-bottom: 20px !important;
+    }
+    .slider-section .new-slider-cover {
+        min-height: 350px !important;
+    }
+   .slider-section .new-col-group-two {
+        display: none !important;
+    }
+    .management-software-cover h3.stk-block-heading__text.has-text-color {
+        font-size: 16px !important;
+        line-height: 22px !important;
+        letter-spacing: 0px !important;
+    }
+    .management-software-cover h6.stk-block-heading__text.has-text-color {
+        font-size: 11px !important;
+        line-height: 16px !important;
+        letter-spacing: 0px !important;
+    }
+    .management-software-cover h2.stk-block-heading__text.has-text-color {
+        font-size: 11px !important;
+        letter-spacing: 0px !important;
+        line-height: 16px !important;
+    }
+    .management-software-cover {
+        padding: 0px 10px;
+        width: 170px;
+        border-radius: 8px;
+        position: absolute;
+        background: white;
+        box-shadow: 0px 4px 16px 0px #0000001A;
+        z-index: 99999;
+        bottom: 2px;
+        right: 2%;
+    }
+    .management-software-cover {
+        min-height: 90px !important;
+    }
+    .slider-section h1.stk-block-heading__text.has-text-color {
+        font-size: 32px !important;
+        line-height: 44px !important;
+        letter-spacing: 0px !important;
+    }
+    .slider-section .wp-block-stackable-subtitle {
+        margin-bottom: 10px !important;
+    }
+    .slider-section .new-col-one{
+        display: none !important;
+    }
+    #we-can-help-turn-your-ideas-into-reality {
+        margin-bottom: 10px !important;
+    }
+    .slider-section p.stk-block-subtitle__text.stk-subtitle.has-text-color {
+        font-size: 12px !important;
+        line-height: 22px !important;
+        letter-spacing: 0px !important;
+    }
+    .slider-section a.stk-link.stk-button.stk--hover-effect-darken {
+        padding: 10px 20px !important;
+       
+    }
+    .slider-section span.has-text-color.stk-button__inner-text {
+        font-size: 11px !important;
+        line-height: 16px !important;
+        letter-spacing: 0px !important;
+    }
+    .slider-section h3.gutentor-text {
+        font-size: 12px !important;
+        line-height: 14px !important;
+        letter-spacing: 0px !important;
+    }
+    .call-us-group {
+   display: none  !important;
+    }
+
+    .slider-section {
+        min-height: 300px !important;
+    }
+    .slider-left-col-stack {
+        padding: 25px!important;
+        padding-bottom: 65px !important;
+        
+    }
+    .slider-section .slider-main-col-two-stack {
+        display: none;
+    }
+    .header-col-one-group h2.stk-block-heading__text.has-text-color.has-text-align-center {
+        font-size: 11px !important;
+        line-height: 16px !important;
+        letter-spacing: 0px !important;
+    }
+    .aboutus-section {
+        padding: 0px !important;
+    }
+    #about-us {
+       
+        width: 100% !important;
+        margin-top: 8px !important;
+        margin-bottom: 8px !important;
+    }
+    .aboutus-section .aboutus-right-col {
+        padding: 0px 20px !important;
+    }
+    .aboutus-main-cover{
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+    .premium-features-section .wp-block-column.premium-features-col-two-one {
+            flex-basis: 100% !important;      
+    }
+    .premium-features-section .wp-block-column.premium-features-col-two-two {
+        flex-basis: 100% !important;      
+}
+.premium-features-section .wp-block-column.premium-features-col-two-three {
+    flex-basis: 100% !important;      
+}
+.premium-features-section .wp-block-column.premium-features-col-two-four {
+    flex-basis: 100% !important;      
+}
+.premium-features-section .premium-features-main-col-two {
+    margin: 20px 0px !important;
+    row-gap: 30px !important;
+}
+.premium-features-section {
+    margin-bottom: 20px !important;
+}
+.service-section img {
+    object-fit: contain !important;
+    width: 100% !important;
+    height: auto !important;
+}
+.service-section .gutentor-post-title-data-wrap::after {
+    content: "";
+    width: 123px;
+    height: 2px;
+    background: #6D00E7;
+    position: absolute;
+    right: unset;
+    top: unset;
+    bottom: 30px;
+    left: 0;
+    z-index: 9999999999999999999999999999999999;
+}
+.why-choose-us-section {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding:  0px 10px !important;
+}
+.why-choose-us-section .laptop-img-girl-stack {
+    align-items: center !important;
+    justify-content: center !important;
+}
+.why-choose-us-section .service-section-right-col-stack {
+    justify-content: center !important;
+    align-items: center !important;
+}
+.why-choose-us-section .research-row {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.why-choose-us-section .research-stack {
+    align-items: center;
+    justify-content: center;
+    padding: 0px !important;
+}
+.why-choose-us-section .analysis-row {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.why-choose-us-section .analysis-stack {
+    align-items: center;
+    justify-content: center;
+    padding: 0px !important;
+}
+.why-choose-us-section .execution-row {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.why-choose-us-section .execution-stack {
+    align-items: center;
+    justify-content: center;
+    padding: 0px !important;
+}
+.video-section-main-cover {
+    min-height: 350px !important;
+}
+.video-section h2.gutentor-title {
+    font-size: 18px !important;
+    line-height: 28px !important;
+    letter-spacing: 0px !important;
+}
+.video-section img.normal-image {
+    width: 90px !important;
+    height: auto !important;
+    object-fit: contain !important;
+}
+.video-section .grid-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+    align-items: center !important;
+}
+.video-section {
+    margin: 0px !important;
+    padding: 20px 0px !important;
+    padding-bottom: 0px !important;
+}
+.our-records-section {
+    margin: 0px !important;
+    padding: 0px 20px !important;
+    min-height: 200px !important;
+}
+.our-records-section .heading-main-col-stack {
+    padding: 0px !important;
+}
+.our-records-section .col-one,.our-records-section-col-three{
+    display: none !important;
+}
+.our-records-section-maincover {
+    min-height: 200px !important;
+}
+.testimonial-section .testimonial-section-left-col-stack {
+    align-items: center !important;
+    justify-content: center !important;
+}
+.testimonial-section {
+    margin: 0px 0px !important;
+    padding: 0px 20px !important;
+}
+.testimonial-section .stack-one {
+    justify-content: center !important;
+    align-items: center !important;
+}
+.stk-block-carousel__dot:before{
+    background: #1b1b1b !important;
+    height: var(--dot-active-height) !important;
+    width: var(--dot-active-width,30px) !important;
+}
+.stk-36332fa .stk-block-carousel__dot::before{
+    background-color: #6d00e7 !important;
+    rotate: 90deg !important;
+}
+.testimonial-section .stk-36332fa .stk-block-carousel__dots {
+    justify-content: center !important;
+    gap: 10px !important;
+}
+.stk-36332fa .stk-block-carousel__dots {
+    justify-content: center !important;
+    flex-direction: unset !important;
+    position: unset !important;
+    bottom: 0 !important;
+}
+.testimonial-section .testimonial-section-right-col-group {
+    padding: 5px !important;
+}
+.faqs-section {
+    padding: 0px 18px !important;
+}
+.faqs-section .faqs-right-col {
+    padding: 10px 0px !important;
+}
+.best-plan-section .wp-block-column.best-plan-main-column-one {
+    flex-basis: 100% !important;
+}
+.best-plan-section .wp-block-column.best-plan-main-column-two {
+    flex-basis: 100% !important;
+}
+.best-plan-section .best-plan-main-column-one-row {
+    justify-content: center !important;
+    align-items: center !important;
+}
+.best-plan-section .best-plan-main-column-two-row {
+    justify-content: center !important;
+    align-items: center !important;
+}
+.text-group {
+    margin: 0px !important;
+    writing-mode: vertical-rl !important;
+    text-orientation: upright !important;
+    white-space: nowrap !important;
+    transform: rotate(0deg) !important;
+    height: 345px !important;
+    width: 45px !important;
+    background: linear-gradient(180deg, #3D78AC 0%, #143867 100%) !important;
+    text-align: left !important;
+    padding: 15px !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    color: white !important;
+}
+.price-plane-card {
+    width: 240px !important;
+    height: auto !important;
+    border-bottom: 4px solid #FCFAFF !important;
+    border-left: 4px solid #FCFAFF !important;
+}
+.best-plan-section .best-plan-main-column {
+    row-gap: 10px;
+}
+.best-plan-section .best-plan-main-column-three-row {
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 10px !important;
+    max-width: 360px !important;
+}
+#learn-more-about-our-recent-news {
+    margin-bottom: 10px !important;
+}
+.post-blog-section .wp-post-image {
+    object-fit: contain !important;
+    height: auto !important;
+    width: 100% !important;
+}
+.post-blog-section::after {
+    content: "The Blog";
+    color: #121212 !important;
+    position: absolute;
+    font-size: 60px;
+    top: 61px;
+    left: 40px;
+    opacity: 2% !important;
+    font-family: 'Bricolage Grotesque';
+    font-weight: 600;
+}
+.post-blog-section .heading-col-two-stack {
+    padding: 0px !important;
+}
+.post-blog-section .gutentor-post-desc {
+    padding-top: 0px !important;
+    margin-bottom: 0px !important;
+    font-size: 10px !important;
+    line-height: 24px !important;
+}
+.post-blog-section .gutentor-post-title-data-wrap {
+    position: relative;
+    padding: 0px;
+    height: unset !important;
+    overflow: visible;
+    z-index: 0;
+}
+.social-media-group .socail-media-main-column {
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.social-media-group,.facebook-row,.twitter--row,.Instagram-row  {
+border: none !important;
+
+}
+.footer-section .wp-block-column.footer-col-one {
+    flex-basis: 100% !important;
+}
+.footer-section .wp-block-column.footer-col-two {
+    flex-basis: 100% !important;
+}
+.footer-section .wp-block-column.footer-col-three {
+    flex-basis: 100% !important;
+}.footer-section .wp-block-column.footer-col-four {
+    flex-basis: 100% !important;
+}
+.footer-section .footer-col-one-stack,.footer-col-two-stack,.footer-col-three-stack,.footer-col-four-stack {
+    padding: 0px !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.footer-section .location-row,.mobile-row,.mail-row {
+    
+    align-items: start !important;
+    justify-content: center !important;
+    gap: 10px !important;
+}
+.footer-section .wp-block-navigation.is-vertical {
+    --navigation-layout-direction: column;
+    --navigation-layout-justify: initial;
+    --navigation-layout-align: center !important;
+}
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item, .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container, .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-page-list {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 30px !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content, .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container, .wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-page-list {
+    justify-content: center !important;
+    align-items: center !important;
+}
+.aboutus-section .aboutus-right-col-stack div {
+    width: 100% !important;
+}
+.footer-section p.gutentor-text {
+    font-size: 14px !important;
+    margin-bottom: 5px !important;
+}
+.stk-block-heading__bottom-line {
+    width: 60px !important;
+    max-width: 60px !important;
+    height: 2px !important;
+    max-height: 2px !important;
+}
+.stk-row.stk-inner-blocks.has-text-align-center-mobile.stk-block-content.stk-button-group {
+    max-width: 124px !important;
+    margin: 0px auto;
+}
+}
+@media screen and (max-width:320px) {
+    .header-col-two-group .header-col-two-two-row {
+        justify-content: end !important;
+        padding-top: 12px !important;
+        padding-bottom: 10px !important;
+    }
+    .header-col-two-group{
+    padding: 10px !important;
+    }
+    .header-col-two-group .header-col-two-one-row {
+     padding-top: 12px !important;
+    padding-bottom: 10px !important;
+    }
+    .slider-left-col-stack {
+        padding: 25px!important;
+        padding-bottom: 65px !important;
+        padding-left: 10px !important;
+        padding-top: 20px !important;
+    }
+    .footer-section p.gutentor-text {
+        font-size: 14px !important;
+        margin-bottom: 5px !important;
+    }
+    .stk-block-heading__bottom-line {
+        width: 60px !important;
+        max-width: 60px !important;
+        height: 2px !important;
+        max-height: 2px !important;
+    }
+    .stk-row.stk-inner-blocks.has-text-align-center-mobile.stk-block-content.stk-button-group {
+        max-width: 124px !important;
+        margin: 0px auto;
+    }
+        
+       
+}   
+@media only screen and (min-width: 390px){
+    .header-col-two-one-row {
+        justify-content: center !important;
+    }
+
+}
+    
+
+
+
+
+.stk-block-carousel__dot:before{
+    background: #1b1b1b;
+    height: var(--dot-active-height);
+    width: var(--dot-active-width,30px);
+}
+/* .stk-36332fa .stk-block-carousel__dot::before{
+    background-color: #6d00e7 !important;
+    rotate: 90deg !important;
+} */
+
+/* .testimonial-section .stk-36332fa .stk-block-carousel__dots {
+    justify-content: center !important;
+    gap: 10px;
+    align-items: center !important;
+} */
+
+/* .stk-36332fa .stk-block-carousel__dot{
+    background-color: #6d00e7 !important;
+    rotate: 90deg !important;
+    width: 0px !important;
+} */
+
+/********* home -page-animations  **************************/
+
+@media screen and (max-width: 1920px) and (min-width: 768px) {
+    .aboutus-left-col.animate__slideInLeft {
+        animation: slideInLeft;
+    }
+
+    .aboutus-right-col.animate__slideInRight {
+        animation: slideInRight;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .premium-features-col-two-one.animate__fadeInUpBig {
+        animation: fadeInUpBig;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .premium-features-col-two-two.animate__fadeInUpBig {
+        animation: fadeInUpBig;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .premium-features-col-two-three.animate__fadeInUpBig {
+        animation: fadeInUpBig;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .premium-features-col-two-four.animate__fadeInUpBig {
+        animation: fadeInUpBig;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .service-section-post-type-group.animate__slideInUp {
+        animation: slideInUp;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .service-section-left-col.animate__slideInLeft {
+        animation: slideInLeft;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .service-section-right-col.animate__slideInRight {
+        animation: slideInRight;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .video-section-main-cover.animate__fadeInDownBig {
+        animation: fadeInDownBig;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .counter-main-column.animate__bounceInUp {
+        animation: bounceInUp;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .testimonial-section-left-col.animate__slideInLeft {
+        animation: slideInLeft;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .testimonial-section-right-col.animate__slideInRight {
+        animation: slideInRight;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .faqs-left-col.animate__fadeInUpBig {
+        animation: fadeInUpBig;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .faqs-right-col.animate__fadeInDownBig {
+        animation: fadeInDownBig;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .best-plan-main-column-one.animate__slideInLeft {
+        animation: slideInLeft;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .best-plan-main-column-two.animate__slideInDown {
+        animation: slideInDown;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .best-plan-main-column-three.animate__slideInRight {
+        animation: slideInRight;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .blog-post-main-group.animate__fadeInUpBig {
+        animation: fadeInUpBig;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .social-media-group.animate__fadeInLeft {
+        animation: fadeInLeft;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .footer-col-one.animate__fadeInLeft {
+        animation: fadeInLeft;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .footer-col-two.animate__fadeInDownBig {
+        animation: fadeInDownBig;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .footer-col-three.animate__fadeInUpBig {
+        animation: fadeInUpBig;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+
+    .footer-col-four.animate__fadeInRight {
+        animation: fadeInRight;
+        animation-duration: 1.5s;
+        --animate-delay: 0s;
+    }
+}
+
+.img-card-section .wp-block-columns {
+    margin-bottom: 0px;
+}
+
+.header-section li.buy-now:hover,
+.header-section li.buy-now.active {
+    border-top: 0px solid orange;
+}
+
+.footer-col-three .buy-now,
+.footer-col-four .buy-now {
+    display: none;
+}
+
+.footer-col-two .buy-now a {
+    color: #fff !important;
+}
+
+div#image-video {
+    background-image: url(https://preview.titanthemes.net/pattern/theme-images/freelance-portfolio-pro/videobg.png);
+    border-radius: 30px;
+}
+
+/* @media(max-width:1366px) {
+    .architect-container {
+        max-width: 1100px !important;
+        margin: 0px auto !important;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
+ */
+
+footer .footer-section,
+footer .footer-section .footer-main-col {
+    padding-top: 80px !important;
+}
+
+.testimonial-section .kt-svg-testimonial-global-icon {
+    background: linear-gradient(90deg, #57e2d0 0%, #f3bb57 51.5%, #ff0180 100%) !important;
+    color: #fff !important;
+}
+
+.testimonial-section .kt-testimonial-item-wrap {
+    background-color: #373737 !important;
+}
+
+.slider-section .wp-block-stackable-button .stk-button,
+.newsletter-section .newsletter-form button {
+    background: #262626 !important;
+}
+
+.slider-section .wp-block-stackable-button .stk-button,
+.newsletter-section .newsletter-form button {
+    border: 5px solid !important;
+    border-image-source: linear-gradient(90deg, #57e2d0 0%, #f3bb57 51.5%, #ff0180 100%) !important;
+    border-image-slice: 1 !important;
+}
+
+.our-achievements-section #our-achievements,
+.our-services-section #our-services,
+.newsletter-section #subscribe-now {
+    background: linear-gradient(90deg, #57e2d0 0%, #f3bb57 51.5%, #ff0180 100%);
+}
+
+.our-achievements-section #our-achievements h2,
+.newsletter-section #subscribe-now h2 {
+    color: #fff !important;
+}
+
+
+
+.our-achievements-section .counter-col-one,
+.our-achievements-section .counter-col-two,
+.our-achievements-section .counter-col-three {
+    background-color: #373737 !important;
+}
+
+.our-achievements-section .counter-col-one-stack .stk-2eca984 h2,
+.our-achievements-section .counter-col-three-stack .stk-d27af94 h2 {
+    background: linear-gradient(90deg, #57e2d0 0%, #f3bb57 51.5%, #ff0180 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.our-achievements-section .counter-col-two {
+    border: 3px solid;
+    border-image-source: linear-gradient(90deg, #57e2d0 0%, #f3bb57 51.5%, #ff0180 100%);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+
+.our-services-section .wp-block-kadence-infobox .kt-blocks-info-box-link-wrap {
+    background-color: #373737 !important;
+}
+
+.our-services-section .orange-servicebox .kt-blocks-info-box-link-wrap {
+    border: 3px solid;
+    border-image-source: linear-gradient(90deg, #57e2d0 0%, #f3bb57 51.5%, #ff0180 100%);
+    border-image-slice: 1;
+}
+
+.gallery-section .luxurious-villa-gallery {
+    margin-top: 20px !important;
+}
+
+.gallery-section .gal-five-col,
+.gallery-section .gal-six-col {
+    margin-top: -20px !important;
+}
+
+.our-services-section .services-main-col .kt-blocks-info-box-title {
+    font-size: 30px !important;
+}
+
+footer .copyright-link {
+    color: white !important;
+    text-decoration: none !important;
+}
+
+footer .phone-number-stack .gutentor-text,
+footer .email-stack .gutentor-text {
+    color: #8c93a6 !important;
+}
+
+.testimonial-section .kt-testimonial-content,
+.testimonial-section .kt-testimonial-occupation {
+    color: white !important;
+}
+
+.gallery-section .luxurious-villa-gallery .stk-block-heading__text,
+.gallery-section .luxurious-villa-stack .stk-block-heading__text {
+    font-size: 20px !important;
+}
+
+.gallery-section .luxurious-villa-small-stack .stk-block-heading__text {
+    font-size: 18px !important;
+}
+
+a#tpbr_calltoaction {
+    background: linear-gradient(90deg, #57e2d0 0%, #f3bb57 51.5%, #ff0180 100%) !important;
+}
+
+li.footer-buy-now a .wp-block-navigation-item__label,
+li.navbar-buynow a .wp-block-navigation-item__label {
+    background: linear-gradient(90deg, #57e2d0 0%, #f3bb57 51.5%, #ff0180 100%) !important;
+    color: #fff !important;
+    padding: 5px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .header-section {
+        top: 110px !important;
+    }
+
+    .footer-section .footer-col-two-stack,
+    .footer-col-four-stack nav {
+        align-items: center !important;
+    }
+
+    footer .copyright-stack .stk-block-heading__text {
+        font-size: 20px !important;
+    }
+}
+
+.team-section {
+    background-color: #262626 !important;
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1920px) {
+    #product {
+        width: 36%;
+    }
+}
