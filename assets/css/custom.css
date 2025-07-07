@@ -1,0 +1,15 @@
+footer .footer-section,
+footer .footer-section .footer-main-col {
+    padding-top: 20px !important;
+}
+
+@media (max-width: 430px) {
+    .footer-section .address-stack {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gutentor-element-advanced-text .gutentor-text {
+        margin-bottom: 0px !important;
+    }
+}

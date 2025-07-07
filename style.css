@@ -4402,10 +4402,6 @@ div#image-video {
 }
  */
 
-footer .footer-section,
-footer .footer-section .footer-main-col {
-    padding-top: 80px !important;
-}
 
 .testimonial-section .kt-svg-testimonial-global-icon {
     background: linear-gradient(90deg, #57e2d0 0%, #f3bb57 51.5%, #ff0180 100%) !important;
